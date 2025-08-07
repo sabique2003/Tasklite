@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000', // Adjust if your backend route is different
+  baseURL: 'https://tasklite-backend-6ba9.onrender.com', // Adjust if your backend route is different
 });
 
 export default api;

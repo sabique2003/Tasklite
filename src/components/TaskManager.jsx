@@ -8,7 +8,7 @@ import {
   updateTask,
   deleteTask,
 } from '../api/taskService';
-import './Taskmanager.css';
+
 
 const statuses = ['Todo', 'In Progress', 'Done'];
 
